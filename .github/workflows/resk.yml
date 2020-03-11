@@ -1,0 +1,12 @@
+# resk start "action"
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npx resk maticzav/resk-tutorial
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# resk end "action"
