@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: npx resk maticzav/resk-tutorial
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 # resk end "action"
