@@ -5,5 +5,5 @@ const libraries = {
     cool: 9001,
   },
 }
-/* resk start "<action-name-end"> */
+/* resk end "<action-name-end"> */
 /* resk end "example" */
