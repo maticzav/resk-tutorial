@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npx resk maticzav/resk-tutorial
+      - name: Resk Gister - create gists for your tutorial.
+        uses: maticzav/resk@v2
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 # resk end "action"
